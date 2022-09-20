@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int a[100],i,x,n;
+	
+        
+	printf("enter size of array:");
+	scanf("%d",&n);
+     printf("enter elements a[i]:",a[i]);
+      for(i=0;i<n;i++)
+     scanf("%d",&a[i]);
+     printf("enter element needed to be searched:");
+     scanf("%d",&x);
+     {
+     	
+     	if(i<n)
+     		printf("element %d found at %dth position",x,i);
+		 else
+		printf("element not found in array");
+		 
+	 }
+     return 0;
+     
+}
